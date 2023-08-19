@@ -44,18 +44,22 @@
 footer {
     background-color: #1f2937;
     color:white;
+    height:80px;
 }
 
 button {
     background-color: #3882F6;
     color: white;
-    border: #3882F6;
-    margin: 20px auto;
+    border: 2px solid white;
+    margin: 10px auto;
+    border-radius: 25px;
+    height: 30px;
+    width: 100px;
+
 
 }
 
 #website-awesome {
-    color: white;
     font-size: 48px;
     font-weight: 700;
     color: #F9FAF8;
@@ -74,5 +78,14 @@ button {
     background: #1f2937;
     margin: 40px left;
     
+}
+#light-blue-box {
+
+  width: 60%;
+  height: 130px;
+  background: #3882f6;  
+  margin: 100px auto;
+  color: #E5E7EB;
+  font-weight: 800;
 }
 
