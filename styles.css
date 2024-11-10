@@ -1,0 +1,24 @@
+.container1 {
+    background-color: darkblue;
+    color: white;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+.header {
+
+}
+   
+.links {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+    
+}
+
+.container2 {
+    background-color: darkblue;
+    color: white;
+    height: 40%;
+}
