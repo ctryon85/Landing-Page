@@ -13,12 +13,12 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .logo {
   font-size: 24px;
   color: white; 
+  margin: auto;
 }
 
 .nav li {
@@ -35,31 +35,35 @@
 }
 .box-2 {
   background:#1f2937;
-  border: 2px solid black;
-  height: 220px;
+  height: 260px;
   
 }
 
 .awesome {
   display: flex;
+  justify-content:center;
+  align-items: bottom;
+  margin: auto 353px;
+  position:absolute;
+  bottom: 70%;
 }
 .awesome {
   color: white;
-  border: 2px solid black;
-  height: 200px;
-  width: 500px;
+  height: 90px;
+  width: 250px;
   font-weight: 900px;
-  font-size: 48px;
+  font-size: 24px;
   
 }
 
 .awesome-text {
-  display: flex;
-}
-
-.awesome-text {
+  position:absolute;
+  margin: auto 364px;
   color: white;
-  border: 2px solid black;
+  height:55px;
+  width:35%;
+  bottom: 60%;
+
 }
 
 .box-3 {
