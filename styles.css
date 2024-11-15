@@ -66,6 +66,21 @@
 
 }
 
+.sign-up {
+  display: flex;
+  position: absolute;
+  margin:auto 365px;
+  bottom: 65%;
+  width: 8%;
+  height: 4%;
+  bottom: 56%;
+  background-color:blue;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
 .box-3 {
   display: flex;
 }
