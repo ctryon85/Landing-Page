@@ -39,6 +39,16 @@
   
 }
 
+.gray-box {
+  background: gray;
+  height: 140px;
+  width: 340px;
+  margin: auto 850px;
+  position: absolute;
+  display: flex;
+  bottom: 64%;
+}
+
 .awesome {
   display: flex;
   justify-content:center;
