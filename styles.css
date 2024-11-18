@@ -94,7 +94,7 @@
   width: 8%;
   height: 4%;
   bottom: 56%;
-  background-color:blue;
+  background-color:#3882f6;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
@@ -124,7 +124,7 @@
   height: 100px;
   width: 100px;
   border-radius: 10px;
-  border: 4px solid black;
+  border: 4px solid #3882f6;
   justify-content: center;
   align-items: center;
 
@@ -136,9 +136,12 @@ display: flex;
 }
 
 .box-4 {
-  background:grey;
-  border: 2px solid black;
+  background:#E5E7EB;
   height: 300px;
+  align-items: center;
+  justify-content: center;
+  color: #1f2937;
+  font-size: 36px;
 }
 
 .box-5  {
@@ -147,7 +150,6 @@ display: flex;
     
     .box-5 {
       background: white;
-      border: 2px solid black;
       height: 300px;
       color: white;
       align-items: center;
@@ -158,21 +160,31 @@ display: flex;
   .call-to-action {
     width: 60%;
     height: 110px;
-    background-color: blue;
+    background-color:#3882f6 ;
     border-radius: 5px;
     justify-content: center;
-    text-align: center;
-    
-    
-    
+    text-align: center; 
   }
 
+  .lower-button {
+    background-color: #3882f6;
+    border:2px solid white;
+    border-radius: 10px;
+    color: white;
+    
+  }
 
 .footer {
   display: flex;
 }
 .footer {
   background:#1f2937;
-  border: 2px solid black;
   height: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.copyright {
+  color: white;
 }
